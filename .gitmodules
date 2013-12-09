@@ -1,0 +1,6 @@
+[submodule "SQLiteManager"]
+	path = SQLiteManager
+	url = https://github.com/donmesserli/SQLiteManager4iOS.git
+[submodule "ASIHTTPRequest"]
+	path = ASIHTTPRequest
+	url = https://github.com/pokeb/asi-http-request.git
