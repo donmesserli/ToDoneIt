@@ -11,7 +11,4 @@
 #import "DataStore.h"
 
 @interface RESTDataStore : DataStore
-- (void)cancelOutstandingOperations;
-- (void)pauseOperations;
-- (void)restartOperations;
 @end

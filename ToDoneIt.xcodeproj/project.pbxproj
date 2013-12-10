@@ -14,8 +14,6 @@
 		F66B5E2A1854F18F002D5C43 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E291854F18F002D5C43 /* DataStore.m */; };
 		F66B5E2D185503A1002D5C43 /* AddListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E2C185503A1002D5C43 /* AddListViewController.m */; };
 		F66B5E3018552BD1002D5C43 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E2F18552BD1002D5C43 /* AddItemViewController.m */; };
-		F66B5E3418553ADE002D5C43 /* AddListOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E3318553ADE002D5C43 /* AddListOperation.m */; };
-		F66B5E3718553AF8002D5C43 /* ToDoneItOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E3618553AF8002D5C43 /* ToDoneItOperation.m */; };
 		F66B5EDB1855456D002D5C43 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E411855456C002D5C43 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F66B5EDC1855456D002D5C43 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E441855456C002D5C43 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F66B5EDD1855456D002D5C43 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E461855456C002D5C43 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -25,10 +23,6 @@
 		F66B5EE11855456D002D5C43 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E501855456C002D5C43 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F66B5EE21855456D002D5C43 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E521855456C002D5C43 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F66B5F021855456D002D5C43 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5E981855456C002D5C43 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F66B5F36185547F5002D5C43 /* DeleteListOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5F35185547F5002D5C43 /* DeleteListOperation.m */; };
-		F66B5F39185548A9002D5C43 /* AddItemOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5F38185548A9002D5C43 /* AddItemOperation.m */; };
-		F66B5F3C18554B8D002D5C43 /* UpdateItemOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5F3B18554B8D002D5C43 /* UpdateItemOperation.m */; };
-		F66B5F3F18554CD3002D5C43 /* DeleteItemOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F66B5F3E18554CD3002D5C43 /* DeleteItemOperation.m */; };
 		F66B5F4118555776002D5C43 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F66B5F4018555776002D5C43 /* libz.dylib */; };
 		F68102391852F6E500FAF702 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F68102291852F6E500FAF702 /* SQLiteManager.m */; };
 		F68102441852F7D600FAF702 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F68102431852F7D600FAF702 /* libsqlite3.dylib */; };
@@ -115,10 +109,6 @@
 		F66B5E2C185503A1002D5C43 /* AddListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddListViewController.m; sourceTree = "<group>"; };
 		F66B5E2E18552BD1002D5C43 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
 		F66B5E2F18552BD1002D5C43 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
-		F66B5E3218553ADE002D5C43 /* AddListOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddListOperation.h; sourceTree = "<group>"; };
-		F66B5E3318553ADE002D5C43 /* AddListOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddListOperation.m; sourceTree = "<group>"; };
-		F66B5E3518553AF8002D5C43 /* ToDoneItOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoneItOperation.h; sourceTree = "<group>"; };
-		F66B5E3618553AF8002D5C43 /* ToDoneItOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoneItOperation.m; sourceTree = "<group>"; };
 		F66B5E391855456C002D5C43 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		F66B5E3A1855456C002D5C43 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F66B5E3C1855456C002D5C43 /* fetch_ios_ghunit.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = fetch_ios_ghunit.rb; sourceTree = "<group>"; };
@@ -258,14 +248,6 @@
 		F66B5ED11855456C002D5C43 /* Mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Mac.xcodeproj; sourceTree = "<group>"; };
 		F66B5ED41855456D002D5C43 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
 		F66B5ED51855456D002D5C43 /* strict.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = strict.xcconfig; sourceTree = "<group>"; };
-		F66B5F34185547F5002D5C43 /* DeleteListOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteListOperation.h; sourceTree = "<group>"; };
-		F66B5F35185547F5002D5C43 /* DeleteListOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteListOperation.m; sourceTree = "<group>"; };
-		F66B5F37185548A9002D5C43 /* AddItemOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemOperation.h; sourceTree = "<group>"; };
-		F66B5F38185548A9002D5C43 /* AddItemOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemOperation.m; sourceTree = "<group>"; };
-		F66B5F3A18554B8D002D5C43 /* UpdateItemOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateItemOperation.h; sourceTree = "<group>"; };
-		F66B5F3B18554B8D002D5C43 /* UpdateItemOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateItemOperation.m; sourceTree = "<group>"; };
-		F66B5F3D18554CD3002D5C43 /* DeleteItemOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteItemOperation.h; sourceTree = "<group>"; };
-		F66B5F3E18554CD3002D5C43 /* DeleteItemOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteItemOperation.m; sourceTree = "<group>"; };
 		F66B5F4018555776002D5C43 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		F68102271852F6E500FAF702 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		F68102281852F6E500FAF702 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
@@ -344,25 +326,6 @@
 				F66B5E221853AD21002D5C43 /* ItemTableViewCell.m */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		F66B5E3118553A91002D5C43 /* REST NSOperations */ = {
-			isa = PBXGroup;
-			children = (
-				F66B5E3518553AF8002D5C43 /* ToDoneItOperation.h */,
-				F66B5E3618553AF8002D5C43 /* ToDoneItOperation.m */,
-				F66B5E3218553ADE002D5C43 /* AddListOperation.h */,
-				F66B5E3318553ADE002D5C43 /* AddListOperation.m */,
-				F66B5F34185547F5002D5C43 /* DeleteListOperation.h */,
-				F66B5F35185547F5002D5C43 /* DeleteListOperation.m */,
-				F66B5F37185548A9002D5C43 /* AddItemOperation.h */,
-				F66B5F38185548A9002D5C43 /* AddItemOperation.m */,
-				F66B5F3A18554B8D002D5C43 /* UpdateItemOperation.h */,
-				F66B5F3B18554B8D002D5C43 /* UpdateItemOperation.m */,
-				F66B5F3D18554CD3002D5C43 /* DeleteItemOperation.h */,
-				F66B5F3E18554CD3002D5C43 /* DeleteItemOperation.m */,
-			);
-			path = "REST NSOperations";
 			sourceTree = "<group>";
 		};
 		F66B5E381855456C002D5C43 /* ASIHTTPRequest */ = {
@@ -733,7 +696,6 @@
 		F6A9A48A1852CE66008BE923 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F66B5E3118553A91002D5C43 /* REST NSOperations */,
 				F6A9A48F1852D855008BE923 /* ListManager.h */,
 				F6A9A4901852D855008BE923 /* ListManager.m */,
 				F6A9A4921852D8B8008BE923 /* ToDoList.h */,
@@ -925,20 +887,15 @@
 				F66B5E231853AD21002D5C43 /* ItemTableViewCell.m in Sources */,
 				F6A9A4631852CCE5008BE923 /* AppDelegate.m in Sources */,
 				F66B5E2D185503A1002D5C43 /* AddListViewController.m in Sources */,
-				F66B5E3418553ADE002D5C43 /* AddListOperation.m in Sources */,
-				F66B5F3C18554B8D002D5C43 /* UpdateItemOperation.m in Sources */,
 				F66B5E2018539EA8002D5C43 /* ListTableViewCell.m in Sources */,
 				F6A9A4691852CCE6008BE923 /* ListsViewController.m in Sources */,
 				F66B5F021855456D002D5C43 /* Reachability.m in Sources */,
 				F66B5EDC1855456D002D5C43 /* ASIDataCompressor.m in Sources */,
 				F6A9A4971852D8CC008BE923 /* ToDoItem.m in Sources */,
-				F66B5F36185547F5002D5C43 /* DeleteListOperation.m in Sources */,
 				F6A9A49A1852D8F9008BE923 /* LocalDataStore.m in Sources */,
 				F66B5EDF1855456D002D5C43 /* ASIFormDataRequest.m in Sources */,
 				F66B5EDD1855456D002D5C43 /* ASIDataDecompressor.m in Sources */,
-				F66B5E3718553AF8002D5C43 /* ToDoneItOperation.m in Sources */,
 				F6A9A48E1852D7F4008BE923 /* SingleListViewController.m in Sources */,
-				F66B5F3F18554CD3002D5C43 /* DeleteItemOperation.m in Sources */,
 				F66B5E2A1854F18F002D5C43 /* DataStore.m in Sources */,
 				F66B5EE01855456D002D5C43 /* ASIHTTPRequest.m in Sources */,
 				F68102391852F6E500FAF702 /* SQLiteManager.m in Sources */,
@@ -948,7 +905,6 @@
 				F6A9A4911852D855008BE923 /* ListManager.m in Sources */,
 				F66B5EE11855456D002D5C43 /* ASIInputStream.m in Sources */,
 				F66B5E3018552BD1002D5C43 /* AddItemViewController.m in Sources */,
-				F66B5F39185548A9002D5C43 /* AddItemOperation.m in Sources */,
 				F6A9A45F1852CCE5008BE923 /* main.m in Sources */,
 				F66B5EDE1855456D002D5C43 /* ASIDownloadCache.m in Sources */,
 				F66B5EE21855456D002D5C43 /* ASINetworkQueue.m in Sources */,
