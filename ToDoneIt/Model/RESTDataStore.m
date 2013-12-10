@@ -240,7 +240,11 @@
 {
     _bRunning = YES;
     
-    if (_bNetworkReachable) [_sendCondition signal];
+    if (_bNetworkReachable) {
+        [_sendCondition lock];
+        [_sendCondition signal];
+        [_sendCondition unlock];        
+    }
 }
 
 #pragma mark --
@@ -251,7 +255,11 @@
 {
     _bNetworkReachable = ([_reachability currentReachabilityStatus] != NotReachable);
     
-    if (_bNetworkReachable && _bRunning) [_sendCondition signal];
+    if (_bNetworkReachable && _bRunning) {
+        [_sendCondition lock];
+        [_sendCondition signal];
+        [_sendCondition unlock];
+    }
 }
 
 - (BOOL)isNetworkReachable
