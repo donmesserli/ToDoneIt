@@ -149,6 +149,8 @@
         [self nextCommand];
         
         [_sendCondition unlock];
+        
+        [NSThread sleepForTimeInterval:3.0f];
     }
 }
 
