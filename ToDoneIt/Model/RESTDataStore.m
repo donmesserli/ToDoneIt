@@ -239,6 +239,8 @@
 - (void)enteringForeground
 {
     _bRunning = YES;
+    
+    if (_bNetworkReachable) [_sendCondition signal];
 }
 
 #pragma mark --
@@ -248,6 +250,8 @@
 - (void)reachabilityChanged:(NSNotification*)note
 {
     _bNetworkReachable = ([_reachability currentReachabilityStatus] != NotReachable);
+    
+    if (_bNetworkReachable && _bRunning) [_sendCondition signal];
 }
 
 - (BOOL)isNetworkReachable
